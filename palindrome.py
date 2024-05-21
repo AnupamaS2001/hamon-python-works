@@ -1,4 +1,5 @@
 def palindrome(s):
+    s=s.lower()
     count=len(s)
     p_str=""
     for i in range(count-1,-1,-1):
